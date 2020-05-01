@@ -1,4 +1,8 @@
-#include <SPI.h>
+
+// Basic display code for display 
+
+
+// #include <SPI.h>
 #include <Wire.h>
 #include <Adafruit_GFX.h>
 #include <Adafruit_SSD1306.h>
@@ -8,7 +12,7 @@ Adafruit_SSD1306 display(OLED_RESET);
 
 
 void setup() {
-  Serial.begin(9600); 
+  // Serial.begin(9600); 
   display.begin(SSD1306_SWITCHCAPVCC, 0x3c); 
   display.display();
   delay(2000); 
@@ -22,7 +26,7 @@ void setup() {
 
 void loop() {
   float sensor = analogRead(A0); 
-  Serial.println(sensor);
+  // Serial.println(sensor);
   display.setCursor(0,0);
   display.println("hello mars!");
   display.setCursor(0,15);
