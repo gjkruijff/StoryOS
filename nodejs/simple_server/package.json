@@ -1,13 +1,12 @@
 {
-  "name": "server",
+  "name": "simple_server",
   "version": "1.0.0",
-  "description": "webserver",
+  "description": "Simple web server",
   "main": "main.js",
   "scripts": {
-    "test": "no test command"
+    "test": "no test command available"
   },
   "keywords": [
-    "webserver",
     "nodejs"
   ],
   "author": "GJ Kruijff",
