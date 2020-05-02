@@ -1,0 +1,15 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "webserver",
+  "main": "main.js",
+  "scripts": {
+    "test": "no test command"
+  },
+  "keywords": [
+    "webserver",
+    "nodejs"
+  ],
+  "author": "GJ Kruijff",
+  "license": "ISC"
+}
