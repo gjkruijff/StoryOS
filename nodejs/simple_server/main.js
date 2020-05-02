@@ -19,7 +19,7 @@ const port = 3000,
       "Content-Type": "text/html"
     });
 
-    let responseMessage = "<h1>Hello, Universe from "+os.hostname()+"!</h1>";
+    let responseMessage = "<h1>Hello, Universe!</h1> Hostname is [<i>"+os.hostname()+"</i>].";
     response.write(responseMessage);
     response.end();
     console.log(`MAIN: Sent a response: ${responseMessage}`);
